@@ -2,7 +2,7 @@ baseURL = "https://mkrowland.com/"
 DefaultContentLanguage = "en"
 languageCode = "en-us"
 title = "Matthew Rowland"
-theme = "lightbi-hugo"
+theme = ["lightbi-hugo","hugo-shortcode-gallery"]
 metaDataFormat = "yaml"
 enableRobotsTXT = true
 enableGitInfo = false
@@ -24,6 +24,14 @@ gcse = false
 Lastmod = false
 rss = false 
 pagination = "10"
+
+# Gallery settings
+galleryThumbnailResizeOptions = "600x600 q90 Lanczos"
+galleryThumbnailHoverEffect = "enlarge"
+galleryEmbedPreview = true
+galleryLastRow = "nojustify"
+galleryShowExif = false
+galleryRandomize = true
 
 [sitemap]
   changefreq = "monthly"

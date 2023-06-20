@@ -14,6 +14,8 @@ Description  : "2014—2019"
 
 **Armello (2015)** | Steam (PC, Mac, Linux), PS4, Xbox One, iOS, Android, Switch
 
+Raw html
+
 {{< rawhtml >}}
     <div class="" style=" max-width: 60%;max-height: 60%;display: inline-flex;">
         <img src="/games/leagueofgeeks/img/armello_shelf.jpg">
@@ -23,7 +25,7 @@ Description  : "2014—2019"
     </div>
 {{< /rawhtml >}}
 
-Non inline
+Markdown
 
 ![Shelf][1]
 ![Bork][2]
@@ -31,3 +33,8 @@ Non inline
 
 [1]: /games/leagueofgeeks/img/armello_shelf.jpg
 [2]: /games/leagueofgeeks/img/armello_fangbork.png
+
+
+Gallery
+
+{{< gallery match="img/*" rowHeight="200" >}} 
