@@ -1,0 +1,49 @@
+baseURL = "https://mkrowland.com/"
+DefaultContentLanguage = "en"
+languageCode = "en-us"
+title = "Matthew Rowland"
+theme = "lightbi-hugo"
+metaDataFormat = "yaml"
+enableRobotsTXT = true
+enableGitInfo = false
+Paginate = 6
+
+[Params] 
+mainSections = ["games"]
+dateFormat = "2 January 2023"
+showDate = false
+comments = false
+readingTime = false
+wordCount = false
+useHLJS = true
+socialShare = true
+delayDisqus = true
+showRelatedPosts = false 
+summaryLength  = "9"
+gcse = false
+Lastmod = false
+rss = false 
+pagination = "10"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[Author]
+  name = "Matthew Rowland"
+  website = "https://mkrowland.com/"
+  email = "matthew@mkrowland.com"
+  twitter = "matt_roly"
+  linkedin = "username"
+  github = "conundrum89"
+
+[[menu.main]]
+    name = "Games"
+    url = "/games/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
